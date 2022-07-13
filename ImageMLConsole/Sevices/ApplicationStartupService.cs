@@ -21,9 +21,9 @@ namespace ImageMLConsole.Sevices
         {
             Console.WriteLine("Test");
             var result= await mediator.Send(new GetPagesCommand() { 
-                 URL= "http://pinterest.com"
+                 URL= "https://www.pinterest.com/search/pins/?q="
             });
-            var result1 = await scrapeingService.GetPages("http://pinterest.com");
+         //   var result1 = await scrapeingService.GetPages("https://www.pinterest.com/search/pins/?q=");
         }
     }
 }

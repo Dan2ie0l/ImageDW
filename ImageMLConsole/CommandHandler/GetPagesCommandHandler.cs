@@ -20,7 +20,8 @@ namespace ImageMLConsole.CommandHandler
         public async Task<string[]> Handle(GetPagesCommand request, CancellationToken cancellationToken)
         {
             Console.WriteLine(request.URL);
-            await this.scrapeingService.GetPages("test");
+            await this.scrapeingService.GetPages(request.URL);
+
             return new string[] { };
         }
     }
