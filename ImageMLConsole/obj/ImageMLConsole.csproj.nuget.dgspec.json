@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aserg\\source\\repos\\ImageML\\ImageMLConsole\\ImageMLConsole.csproj": {}
+    "C:\\Users\\ReBit\\source\\repos\\ImageMLD\\ImageMLConsole\\ImageMLConsole.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aserg\\source\\repos\\ImageML\\ImageMLConsole\\ImageMLConsole.csproj": {
+    "C:\\Users\\ReBit\\source\\repos\\ImageMLD\\ImageMLConsole\\ImageMLConsole.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aserg\\source\\repos\\ImageML\\ImageMLConsole\\ImageMLConsole.csproj",
+        "projectUniqueName": "C:\\Users\\ReBit\\source\\repos\\ImageMLD\\ImageMLConsole\\ImageMLConsole.csproj",
         "projectName": "ImageMLConsole",
-        "projectPath": "C:\\Users\\aserg\\source\\repos\\ImageML\\ImageMLConsole\\ImageMLConsole.csproj",
-        "packagesPath": "C:\\Users\\aserg\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aserg\\source\\repos\\ImageML\\ImageMLConsole\\obj\\",
+        "projectPath": "C:\\Users\\ReBit\\source\\repos\\ImageMLD\\ImageMLConsole\\ImageMLConsole.csproj",
+        "packagesPath": "C:\\Users\\ReBit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ReBit\\source\\repos\\ImageMLD\\ImageMLConsole\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\aserg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ReBit\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

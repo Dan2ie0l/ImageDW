@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OpenQA.Selenium;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,7 +9,11 @@ namespace ImageMLConsole.Sevices
 {
     public interface IScrapeingService
     {
-        Task<string[]> GetPages(string url);
-        Task<string[]> GetLinks(string url);
+        Task<string[]> GetPages(string url, string category,IWebDriver driver);
+        Task<string[]> Scrolling(IWebDriver driver);
+        Task<string[]> GetLinks(IWebDriver driver, List<string> links);
+        Task<string[]> Cleaning();
+        Task<string[]> Download(string category,List<string> links);
+
     }
 }
